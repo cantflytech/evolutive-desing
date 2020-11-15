@@ -1,0 +1,44 @@
+header
+{
+  display: flex;
+  justify-content: space-around;
+}
+header h1
+{
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+#navigation
+{
+  display: flex;
+}
+#navigation li 
+{
+  list-style: none;
+  margin: 20px;
+  position: relative;
+  left: 75px;
+  font-size: 17.5px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  transition: 0.25s;
+}
+
+#acceuil
+{
+	background-image: url("lold.jpg");
+	background-attachment: fixed;
+	background-size: 1600px 1000px;
+	padding: 150px;
+}
+
+#acceuil h1
+{
+  color: aliceblue;
+  text-align: right;
+  margin-top: -50%;
+}
+#acceuil li
+{
+  color: rgb(0, 0, 0);
+  text-align:left;
+  margin-top: 50%;
+}
